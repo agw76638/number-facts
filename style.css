@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #353b48;
+}
+
+.card {
+  background: #0097e6;
+  color: white;
+  margin: 50px auto auto auto;
+  padding: 40px;
+  border-radius: 5px;
+  height: 200px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.card__input {
+  width: 100%;
+  border-radius: 5px;
+  height: 30px;
+}
+
+.card__fact {
+  display: none;
+}
