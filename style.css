@@ -14,11 +14,11 @@ body {
   margin: 50px auto auto auto;
   padding: 40px;
   border-radius: 5px;
-  height: 200px;
-  width: 450px;
+  height: 240px;
+  width: 540px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .card__input {
@@ -29,4 +29,13 @@ body {
 
 .card__fact {
   display: none;
+  height: 50px;
+}
+
+.card__title--small {
+  font-size: 20px;
+}
+
+.card__text {
+  font-size: 12px;
 }
